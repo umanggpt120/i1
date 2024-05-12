@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+@media (max-width:750px) {
+   
+
+    
+    .one{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .one2{
+        flex-direction: column;
+       padding-left: 50px;
+    }
+    .two1{
+        flex-direction: column;
+
+    }
+    .sectwo{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    
+}
+.first{
+    /* height: 100vh;
+    width: 100wh; */
+    /* height: 800px; */
+    height: auto;
+    background-color: #d1dcdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    /* height: 90%;*/
+    width: 90vw; 
+    height: auto;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    background-color: #eef2f3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.secone{
+ height: 50%;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ 
+}
+
+.one{
+    /* height: 25%; */
+    height: auto;
+    margin-top: 2vw;
+    padding: 10px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.one1{
+    height: 45%;
+    width: 17%;
+    display: flex;
+    
+}
+.one1 h1{
+    font-size: 20px;padding-left: 2px;
+}
+.one2{
+    /* height: 45%;
+    width: 44%; */
+   height: auto;
+   width: auto;
+   gap: 20px;
+   
+    display: flex;
+    justify-content: space-around;
+   
+}
+.one2 a{
+    padding-top: 4px;
+    text-decoration: none;
+    color: black;
+}
+.one3{
+    height: 45%;
+    width: 12%;
+   
+}
+.one3 button{
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: #edfffc;
+    border: 0.1px solid rgb(225, 240, 239);
+box-shadow: rgba(168, 162, 162, 0.3) 0px 19px 58px, rgba(169, 164, 164, 0.22) 0px 15px 12px;} 
+.two{
+    /* height: 55%;
+    width: 60%; */
+    height: auto;
+    width: auto;
+    margin-top: 3vw;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.two1{
+    /* height: 50%;
+    width: 80%; */
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.two1 h1{
+    font-size: 50px;
+}
+.two2{
+    height: 30%;
+    width: 60%;
+    
+}
+.two2 p{
+    text-align: center;
+}
+.three{
+    height: 25%;
+    width: 23%;
+   
+    display: flex;
+    margin-top: 6vw;
+    justify-content: space-around;
+}
+
+.sectwo{
+/* height: 50%;
+width: 100%; */
+height: auto;
+width: auto;
+margin-top: 8vw;
+margin-bottom: 3vh;
+display: flex;
+justify-content: space-around;
+gap: 15px;
+padding-left: 60px;
+padding-right: 60px;
+}
+.four{
+    height: 185px;
+    width: 190px;
+   
+   padding-top: 3vh;
+   padding-left: 4vh;
+   padding-right: 3vh;
+    background-color: #dcdcdc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+.four h1{
+    font-size: 40px;
+}
+.five{
+    /* height: 80%;
+    width: 40%; */
+    height: 270px;
+    width: 300px;
+    background-color: #dcdcdc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.o{
+    padding-top: 30px;
+    height: 80px;
+    width: 80px;
+}
+.apple{
+    /* height: 20%;
+    width: 30%; */
+    height: 220px;
+    width: 120px;
+    gap: 1vh;
+    background-color: #647174;
+    border-radius: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+}
+.six{
+    /* height: 65%;
+    width: 20%; */
+    height: 185px;
+    width: 190px;
+    background-color: #dcdcdc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.six p{
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+.six h5{
+    text-align: center;
+    padding-top: 5px;
+}
+.d1{
+    height: 25%;
+    width: 45%;
+    background-color: #b7c8c7;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+.d2{
+    height: 25%;
+    width: 45%;
+    margin-right: 10px;
+    background-color: #b7c8c7;
+    border-radius: 10px;
+}
+.d3{
+    height: 25%;
+    width: 45%;
+    border-radius: 10px;
+    margin-right: 40px;
+    background-color: #b7c8c7;
+}
